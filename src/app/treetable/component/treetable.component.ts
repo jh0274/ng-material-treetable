@@ -31,7 +31,7 @@ export class TreetableComponent<T> implements OnInit {
   ) {
     const tagName = elem.nativeElement.tagName.toLowerCase();
     if (tagName === 'ng-treetable') {
-      console.warn(`DEPRECATION WARNING: \n The 'ng-treetable' selector is being deprecated. Please use the new 'treetable' selector`);
+      console.warn(`DEPRECATION WARNING: \n The 'ng-treetable' selector is being deprecated! Please use the new 'treetable' selector`);
     }
   }
 
